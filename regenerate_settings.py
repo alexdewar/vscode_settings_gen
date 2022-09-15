@@ -17,4 +17,4 @@ for key, val in overrides.items():
 
 # Write settings back out again
 with open(common.get_settings_path(), "w") as file:
-    json.dump(settings | overrides, file, sort_keys=True, indent=4)
+    json.dump(settings, file, sort_keys=True, indent=4)
