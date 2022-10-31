@@ -1,6 +1,9 @@
 {
     "C_Cpp.clang_format_path": "/usr/bin/clang-format",
     "C_Cpp.vcFormat.indent.gotoLabels": "leftmostColumn",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     "breadcrumbs.enabled": true,
     "cSpell.allowCompoundWords": true,
     "cSpell.language": "en-GB",
@@ -53,6 +56,7 @@
         "odometric",
         "Opteran",
         "Philippides",
+        "platformdirs",
         "pydocstyle",
         "pygame",
         "pyglet",
@@ -80,6 +84,7 @@
         "vsync",
         "Woodgate",
         "wxagg",
+        "wxpython",
         "xlabel",
         "xlim",
         "xticks",
@@ -153,6 +158,9 @@
     "rewrap.autoWrap.enabled": true,
     "ros.distro": "noetic",
     "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.env.linux": {
+        "EDITOR": "code --wait"
+    },
     "terminal.integrated.fontSize": 12,
     "todo-tree.general.tags": [
         "BUG",
